@@ -20,22 +20,27 @@
   },
   "homepage": "https://github.com/neomaxzero/ui-system-one#readme",
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "@babel/preset-react": "^7.12.10",
-    "@emotion/babel-plugin": "^11.1.2",
-    "@rollup/plugin-commonjs": "^17.0.0",
-    "@rollup/plugin-node-resolve": "^11.0.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "rollup": "^2.35.1",
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@emotion/babel-plugin": "^11.3.0",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.4.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.60.1",
     "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4"
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "sass": "^1.43.5"
   },
   "peerDependencies": {
-    "react": "^17.0.1",
     "@emotion/react": "^11.1.4",
-    "@emotion/styled": "^11.0.0"
-  }
+    "@emotion/styled": "^11.0.0",
+    "react": "^17.0.1"
+  },
+  "dependencies": {}
 }
